@@ -1,0 +1,12 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: s3-repo
+  namespace: fleet-local
+spec:
+  repo: https://github.com/mdekoster/s3-fleet
+
+  branch: main
+
+  paths:
+  - apps/ingress

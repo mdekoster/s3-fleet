@@ -1,0 +1,8 @@
+defaultNamespace: nginx-ingress
+
+helm:
+  chart: ingress-nginx
+  repo: https://kubernetes.github.io/ingress-nginx
+  releaseName: nginx-ingress
+  version: 4.1.4
+    
