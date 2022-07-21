@@ -4,4 +4,4 @@ helm:
   chart: sealed-secret
   repo: https://bitnami-labs.github.io/sealed-secrets
   releaseName: sealed-secret
-  version: v2.2.0
+  version: 2.4.0
