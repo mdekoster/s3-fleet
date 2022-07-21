@@ -10,3 +10,4 @@ spec:
 
   paths:
   - apps/ingress
+  - apps/sealed-secret
