@@ -1,7 +1,7 @@
 defaultNamespace: sealed-secret
 
 helm:
-  chart: sealed-secret
+  chart: sealed-secrets
   repo: https://bitnami-labs.github.io/sealed-secrets
   releaseName: sealed-secret
   version: 2.4.0
